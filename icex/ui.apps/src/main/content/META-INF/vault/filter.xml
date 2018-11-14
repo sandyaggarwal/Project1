@@ -4,4 +4,5 @@
         <exclude pattern="/apps/icex/install" />
     </filter>
     <filter root="/etc/designs/icex"/>
+      <filter root="/conf/icex"/>
 </workspaceFilter>

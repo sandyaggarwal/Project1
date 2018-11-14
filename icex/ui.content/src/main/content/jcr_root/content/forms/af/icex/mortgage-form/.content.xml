@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/fd/af/default"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2017-11-28T17:42:52.829+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/fd/af/templates/simpleEnrollmentTemplate2"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mortgage Form"
+        sling:resourceType="fd/af/components/page2/afStaticTemplatePage">
+        <guideheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideheader">
+            <guideimage
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Logo Image"
+                sling:resourceType="fd/af/components/guideimage"
+                css="logoImage"
+                guideNodeClass="guideImage"
+                imageRotate="0"
+                name="logoImage">
+                <file/>
+            </guideimage>
+            <guidetextdraw
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/guidetextdraw"
+                _value="&lt;p>Logo&lt;/p>"
+                css="headerText"
+                guideNodeClass="guideTextDraw"
+                name="headerText"/>
+        </guideheader>
+        <guideformtitle
+            jcr:lastModified="{Date}2017-10-26T15:51:04.886+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/afFormTitle"
+            _value="&lt;p style=&quot;text-align: center;&quot;>Mortgage Loan Application Form&lt;/p>&#xa;"
+            css="guideformtitle container"
+            editable="{Boolean}true"
+            guideNodeClass="guideTextDraw"
+            name="formTitle"
+            textIsRich="true"/>
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-11-28T17:40:01.470+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
+            _useSignedPdf="true"
+            actionType="fd/fp/components/actions/portalsubmit"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            disableSwipeGesture="{Boolean}false"
+            dorTemplateRef="/content/dam/formsanddocuments/bootstrap-creative/mortgage-form/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            enableServerValidation="true"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/basicTheme"
+            useExistingAF="false">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:lastModified="{Date}2017-10-26T19:01:14.568+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}true"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable"
+                validateOnStepCompletion="{Boolean}true">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/wizard"
+                    enableLayoutOptimization="{Boolean}true"
+                    guideNavigatorTab="wizard-tab"
+                    toolbarPosition="Top"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <guidepanel_879805661044659
+                        jcr:description="Borrower Information"
+                        jcr:lastModified="{Date}2017-10-26T15:50:37.160+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Borrower Information"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="GeneralInformation"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2017-10-26T16:40:39.661+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:40:58.661+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Full Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="textbox1509016239692"
+                                textIsRich="[true,true,true]"/>
+                            <guideemail
+                                jcr:created="{Date}2017-09-13T03:25:09.163-06:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T19:15:01.519+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower  Email"
+                                sling:resourceType="fd/af/components/guideemail"
+                                autofillFieldKeyword="email"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="email1505294709461"
+                                textIsRich="[true,true]"
+                                validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+                                validationPatternType="custom"/>
+                            <guidetextbox_1544070771
+                                jcr:created="{Date}2017-10-26T15:28:39.277+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:36:19.029+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Current Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_15440707711509011919308"
+                                textIsRich="[true,true,true]"/>
+                            <guidenumericstepper
+                                jcr:created="{Date}2017-10-26T15:52:55.429+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:36:13.182+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How long have you lived here"
+                                sling:resourceType="fd/af/components/guidenumericstepper"
+                                guideNodeClass="guideNumericBox"
+                                name="numericstepper1509013375460"
+                                stepSize="1"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1008480374
+                                jcr:created="{Date}2017-10-26T15:54:53.622+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:13:40.690+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Previous Address (If less than 2 years at current address)"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_10084803741509013493653"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1070432323
+                                jcr:created="{Date}2017-10-26T19:14:21.822+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T19:14:42.998+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Mobile No"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                displayPatternType="text{'('999')' 999-9999}"
+                                displayPictureClause="text{'('999')' 999-9999}"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_10704323231509025461854"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="text{'('999')' 999-9999}"
+                                validationPatternType="text{'('999')' 999-9999}"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2017-10-26T14:39:55.865+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:13:49.452+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Marital Status"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton1509008995896"
+                                options="[0=Single,1=Married,2=Others]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_2041844455
+                                jcr:created="{Date}2017-10-26T15:12:22.662+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:13:54.013+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Gender"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_20418444551509010942692"
+                                options="[0=Male,1=Female,3=Third Gender]"
+                                textIsRich="[true,true]"/>
+                            <guidedatepicker
+                                jcr:created="{Date}2017-10-26T15:16:10.811+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:14:02.753+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Date Of Birth"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                guideNodeClass="guideDatePicker"
+                                name="datepicker1509011170849"
+                                placeholderText="DD/MM/YYYY"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_2060177951
+                                jcr:created="{Date}2017-10-26T15:51:49.036+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:52:25.384+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What is your living status"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_20601779511509013309069"
+                                options="[0=Own,1=rent,3=Live with relatives]"
+                                textIsRich="[true,true]"/>
+                            <guidenumericbox_768349190
+                                jcr:created="{Date}2017-10-26T15:53:44.571+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:53:52.692+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How much is your current housing expense"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_7683491901509013424641"/>
+                            <guidetextbox_327982136
+                                jcr:created="{Date}2017-10-26T15:54:17.938+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:54:29.751+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What type of mortgage do you currently have"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_3279821361509013457968"/>
+                            <guidenumericstepper_358203297
+                                jcr:created="{Date}2017-10-26T15:57:10.318+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:36:31.981+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Number of Dependents"
+                                sling:resourceType="fd/af/components/guidenumericstepper"
+                                guideNodeClass="guideNumericBox"
+                                minimum="0"
+                                name="numericstepper_3582032971509013630350"
+                                stepSize="1"
+                                textIsRich="[true,true]"/>
+                            <afformtitle
+                                jcr:created="{Date}2017-10-26T15:18:17.919+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:20:03.349+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p style=&quot;text-align: left;&quot;>&lt;b>Tell us about your income details&lt;/b>&lt;/p>&#xa;"
+                                css="guideformtitle container"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle"
+                                textIsRich="true"/>
+                            <guidetextbox_301564917
+                                jcr:created="{Date}2017-10-26T15:22:24.784+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:22:58.399+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Name of company / concern"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_3015649171509011544812"/>
+                            <guidetextbox_1974392459
+                                jcr:created="{Date}2017-10-26T15:25:03.384+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:25:17.698+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Designation"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_19743924591509011703415"/>
+                            <guidenumericbox
+                                jcr:created="{Date}2017-10-26T15:25:27.961+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:25:38.643+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Employee No."
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox1509011727993"/>
+                            <guidetextbox_1943066652
+                                jcr:created="{Date}2017-10-26T15:25:53.065+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:26:21.703+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Complete Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_19430666521509011753093"
+                                textIsRich="[true,true,true]"/>
+                            <guidenumericstepper_1824274763
+                                jcr:created="{Date}2017-10-26T16:39:03.938+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:36:52.119+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How long employed here"
+                                sling:resourceType="fd/af/components/guidenumericstepper"
+                                guideNodeClass="guideNumericBox"
+                                minimum="0"
+                                name="numericstepper_18242747631509016143980"
+                                stepSize="1"
+                                textIsRich="[true,true]"/>
+                            <guidenumericbox_1927760076
+                                jcr:created="{Date}2017-10-26T15:26:43.362+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:27:07.216+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Gross Annual Salary"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_19277600761509011803390"/>
+                            <guidenumericbox_1332959170
+                                jcr:created="{Date}2017-10-26T15:27:14.164+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T15:27:29.435+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Other Income (Per Annum)"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_13329591701509011834189"/>
+                            <adobesignblock
+                                jcr:created="{Date}2017-10-26T17:43:35.046+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T17:44:19.068+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Borrower Sign Block"
+                                sling:resourceType="fd/afaddon/components/adobeSignBlock"
+                                _value="&lt;p>Signature: &amp;nbsp;&lt;span data-adobesigntype=&quot;signature&quot;>{{sampleField_es_:signer1:signature}}&lt;/span>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                guideNodeClass="guideAdobeSignBlock"
+                                name="adobesignblock1509020015084"
+                                visible="{Boolean}false"/>
+                        </items>
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                    </guidepanel_879805661044659>
+                    <panel1509012339361
+                        jcr:description="Co-Applicant Information"
+                        jcr:lastModified="{Date}2017-10-26T16:00:08.847+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Co-Borrower Information"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel15090123393611509012339473"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2017-10-26T15:37:52.863+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T19:09:03.094+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Full Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="textbox1509012472894"
+                                textIsRich="[true,true,true]"/>
+                            <guideemail
+                                jcr:created="{Date}2017-10-26T16:01:00.194+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T19:08:57.421+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Email ID"
+                                sling:resourceType="fd/af/components/guideemail"
+                                autofillFieldKeyword="email"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="email1509013860222"
+                                textIsRich="[true,true]"
+                                validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+                                validationPatternType="custom"/>
+                            <guidetextbox_601313928
+                                jcr:created="{Date}2017-10-26T15:37:59.133+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:10:27.628+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Current Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_6013139281509012479164"
+                                textIsRich="[true,true,true]"/>
+                            <guidenumericstepper
+                                jcr:created="{Date}2017-10-26T16:03:14.331+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:03:41.485+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How long have you lived here"
+                                sling:resourceType="fd/af/components/guidenumericstepper"
+                                guideNodeClass="guideNumericBox"
+                                name="numericstepper1509013994358"/>
+                            <guidetextbox_1545737937
+                                jcr:created="{Date}2017-10-26T16:03:58.466+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:10:30.920+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Previous Address (If less than 2 years at current address)"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_15457379371509014038506"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_194228565
+                                jcr:created="{Date}2017-10-26T19:11:47.244+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T19:12:13.766+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Mobile No"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                displayPatternType="text{'('999')' 999-9999}"
+                                displayPictureClause="text{'('999')' 999-9999}"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_1942285651509025307277"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="text{'('999')' 999-9999}"
+                                validationPatternType="text{'('999')' 999-9999}"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2017-10-26T15:38:15.422+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:10:36.273+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Marital Status"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton1509012495449"
+                                options="[0=Single,1=Married,2=Others]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_1351873399
+                                jcr:created="{Date}2017-10-26T15:38:17.257+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:10:40.559+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Gender"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_13518733991509012497282"
+                                options="[0=Male,1=Female,2=Third Gender]"
+                                textIsRich="[true,true]"/>
+                            <guidedatepicker
+                                jcr:created="{Date}2017-10-26T15:38:32.015+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:37:36.455+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Date Of Birth"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                guideNodeClass="guideDatePicker"
+                                name="datepicker1509012512051"
+                                placeholderText="DD/MM/YYYY"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_1867370422
+                                jcr:created="{Date}2017-10-26T16:09:17.737+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:09:54.697+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What is your living status"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_18673704221509014357770"
+                                options="[0=Own,1=Rented,2=Live with relatives]"
+                                textIsRich="[true,true]"/>
+                            <guidenumericbox_355155119
+                                jcr:created="{Date}2017-10-26T16:08:32.549+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:08:40.079+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How much is your current housing expense"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_3551551191509014312583"/>
+                            <guidetextbox_1548761156
+                                jcr:created="{Date}2017-10-26T16:09:02.938+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:09:06.173+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What type of mortgage do you currently have"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15487611561509014342966"/>
+                            <afformtitle
+                                jcr:created="{Date}2017-10-26T15:38:45.766+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:07:05.312+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>&lt;b>Tell us about your income details&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;"
+                                css="guideformtitle container"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle"
+                                textIsRich="true"/>
+                            <guidetextbox_1567874808
+                                jcr:created="{Date}2017-10-26T15:38:55.148+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:07:17.525+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Name of company / concern"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15678748081509012535179"/>
+                            <guidetextbox_1424616004
+                                jcr:created="{Date}2017-10-26T15:38:56.978+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:07:25.558+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Designation"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_14246160041509012537007"/>
+                            <guidetextbox_1950971422
+                                jcr:created="{Date}2017-10-26T15:38:59.113+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:07:34.371+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Employee No."
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_19509714221509012539141"/>
+                            <guidetextbox_1123748392
+                                jcr:created="{Date}2017-10-26T15:43:50.868+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:07:52.780+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Complete Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_11237483921509012830899"
+                                textIsRich="[true,true,true]"/>
+                            <guidenumericbox
+                                jcr:created="{Date}2017-10-26T15:43:59.806+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:08:03.846+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Gross Annual Salary"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox1509012839845"/>
+                            <guidenumericbox_668889306
+                                jcr:created="{Date}2017-10-26T15:44:03.766+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:08:13.196+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Other Income (Per Annum)"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_6688893061509012843794"/>
+                            <adobesignblock
+                                jcr:created="{Date}2017-10-26T16:11:20.135+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T17:44:34.425+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Co-Borrower Sign Block"
+                                sling:resourceType="fd/afaddon/components/adobeSignBlock"
+                                _value="&lt;p>Signature: &amp;nbsp;&lt;span data-adobesigntype=&quot;signature&quot;>{{sampleField_es_:signer1:signature}}&lt;/span>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                guideNodeClass="guideAdobeSignBlock"
+                                name="adobesignblock1509014480227"
+                                textIsRich="true"
+                                visible="{Boolean}false"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            toolbarPosition="Bottom"/>
+                    </panel1509012339361>
+                    <panel1509014715423
+                        jcr:description="Property Information"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Property Information"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel15090147154231509014715620">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2017-10-26T16:20:08.620+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:46:18.376+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Address of Property being Purchased"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox1509015008651"
+                                textIsRich="[true,true,true]"/>
+                            <guidenumericbox
+                                jcr:created="{Date}2017-10-26T16:20:24.055+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:22:16.314+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Sale Price"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox1509015024089"/>
+                            <guidenumericbox_200362504
+                                jcr:created="{Date}2017-10-26T16:20:26.720+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:23:16.589+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Annual Taxes"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_2003625041509015026750"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2017-10-26T16:20:34.947+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:23:47.556+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Has the seller accepted the contract"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton1509015034989"
+                                options="[0=Yes,1=No]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_618911802
+                                jcr:created="{Date}2017-10-26T16:20:49.906+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:26:09.886+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Is the Property"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_6189118021509015049937"
+                                options="[0=Single Family,1= Duplex,2= Triplex]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_1765226930
+                                jcr:created="{Date}2017-10-26T16:20:37.764+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:25:58.699+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Will you use the property as"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_17652269301509015037793"
+                                options="[0=Primary Residence,1=Vacation Home,2=Investment]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_930278492
+                                jcr:created="{Date}2017-10-26T16:20:39.715+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:26:59.077+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Is this property a"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_9302784921509015039762"
+                                options="[0=Condominium,1=Townhome,2=Fee simple home]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_1666470122
+                                jcr:created="{Date}2017-10-26T16:20:41.854+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:27:19.550+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Is there an association fee"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_16664701221509015041888"
+                                options="[0=Yes,1=No]"
+                                textIsRich="[true,true]"/>
+                            <guidenumericbox_1871310837
+                                jcr:created="{Date}2017-10-26T16:36:47.218+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:36:52.185+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="If yes, How much monthly?"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_18713108371509016007248"/>
+                            <guidetextbox_683517400
+                                jcr:created="{Date}2017-10-26T16:20:11.437+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:36:12.531+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Who is the Realtor that helped to complete the contract?Company and Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="textbox_6835174001509015011466"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_916319333
+                                jcr:created="{Date}2017-10-26T16:37:17.706+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:37:25.289+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Agent Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_9163193331509016037739"/>
+                            <guidenumericbox_39458290
+                                jcr:created="{Date}2017-10-26T16:37:07.123+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:37:35.314+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Agent Mobile No"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox_394582901509016027153"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            toolbarPosition="Bottom"/>
+                    </panel1509014715423>
+                    <panel1509016323559
+                        jcr:description="Mortgage Options"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Mortgage Options"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel15090163235591509016323813">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:created="{Date}2017-10-26T16:44:56.428+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-10-26T16:45:09.467+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Please complete the following section to indicate your preference for your financing. Your mortgage counselor will be calling you to answer any questions and confirm your selections. At that time you will be given instructions on how to lock in on current interest rates.&lt;br>&#xa;&lt;/p>&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw1509016496472"
+                                textIsRich="true"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2017-10-26T16:46:42.543+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:38:30.121+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How long do you think that you will own the new home that you are financing"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton1509016602583"
+                                options="[0=0-5 Years,1=5-10 Years,2=10-15 Years,3=15 or more years]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_1918812479
+                                jcr:created="{Date}2017-10-26T16:46:45.467+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:38:34.409+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What mortgage term do you prefer"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_19188124791509016605500"
+                                options="[0=10 Years,1=15 Years,2=20 Years,3=30 Years]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_691635847
+                                jcr:created="{Date}2017-10-26T16:46:52.227+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:38:38.899+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How many points are you considering"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_6916358471509016612257"
+                                options="[0=None,1=One,2=Two,3=Three]"
+                                textIsRich="[true,true]"/>
+                            <guideradiobutton_876418650
+                                jcr:created="{Date}2017-10-26T16:46:54.591+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:38:45.004+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What loan program are you considering"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_8764186501509016614634"
+                                options="[0=Fixed,1=1 year arm,2=FHA,3=3/1 year arm,4=VA,5=5 or 7 Year arm,6=Buydown,7=COFI adjustable,8=Others]"
+                                textIsRich="[true,true]"/>
+                            <guidenumericbox
+                                jcr:created="{Date}2017-10-26T16:52:53.631+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-11-28T17:38:50.352+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How much of a loan are you requesting"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                dataType="integer"
+                                guideNodeClass="guideNumericBox"
+                                name="numericbox1509016973663"
+                                textIsRich="[true,true]"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            toolbarPosition="Bottom"/>
+                    </panel1509016323559>
+                    <panel1392199234944
+                        jcr:lastModified="{Date}2017-11-28T17:42:52.697+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Signature Step"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel3"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <esign
+                                fd:targetVersion="1.1"
+                                jcr:created="{Date}2017-09-13T03:49:03.789-06:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-09-13T03:49:03.789-06:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Signature Step"
+                                sling:resourceType="fd/afaddon/components/esign"
+                                displayMsg="Loading document..."
+                                guideNodeClass="esign"
+                                name="signatureStep"
+                                signingService="echosign"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                    </panel1392199234944>
+                </items>
+                <toolbar
+                    cq:cssClass="guide-1456495491461"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    cssStyle="&#xa;@media (max-width : 991px){&#xa;}&#xa;&#xa;@media (max-width : 767px){&#xa;.guide-1456495491461 .guideToolbarNode{&#xa;&#x9;display:none;&#xa;}&#xa;}&#xa;&#xa;@media (max-width : 479px){&#xa;}&#xa;"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar"
+                    styleProperties="\{&quot;selectors&quot;:{&quot;toolbar&quot;:{&quot;breakpoints&quot;:{&quot;phone&quot;:{&quot;states&quot;:{&quot;default&quot;:{&quot;cssProperties&quot;:{&quot;display&quot;:&quot;none&quot;}}}}}}}}">
+                    <items jcr:primaryType="nt:unstructured">
+                        <previtemnav
+                            fd:targetVersion="1.1"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Previous"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/previtemnav"
+                            assistPriority="custom"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="previtemnav"
+                            type="movePrev"/>
+                        <nextitemnav
+                            fd:targetVersion="1.1"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            assistPriority="custom"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav"
+                            type="moveNext"/>
+                        <submit
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Submit"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/submit"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="submit"
+                            type="submit">
+                            <fd:rules
+                                fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.toolbar.submit&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;submit&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                jcr:primaryType="nt:unstructured"/>
+                            <fd:scripts
+                                fd:navigationChange="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.submit&quot;\,&quot;event&quot;:&quot;Navigation&quot;\,&quot;content&quot;:&quot;this.visible=!this.panel.navigationContext.hasNextItem&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:0\,&quot;enabled&quot;:true}]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </submit>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+            </rootPanel>
+            <toolbar
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Toolbar"
+                sling:resourceType="fd/af/components/toolbar"
+                guideComponentType="true"
+                guideNodeClass="guideToolbar"
+                name="toolbar">
+                <items jcr:primaryType="nt:unstructured">
+                    <reset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Reset"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/reset"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="reset"
+                        type="reset">
+                        <fd:rules
+                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;RESET_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.reset();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </reset>
+                    <saveGuideDraft
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Save"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                        guideNodeClass="guideButton"
+                        name="saveGuideDraft"
+                        type="save">
+                        <fd:rules
+                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SAVE_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nhandleDraftSave(this);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </saveGuideDraft>
+                </items>
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/toolbar/mobileFixedToolbarLayout"/>
+            </toolbar>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="true"
+                signConfigPath="/etc/cloudservices/echosign/bmw"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="guide[0].guide1[0].guideRootPanel[0].GeneralInformation[0].email1505294709461[0]"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Borrower Sign">
+                    <signField0
+                        jcr:primaryType="nt:unstructured"
+                        name="sampleField"
+                        som="guide[0].guide1[0].guideRootPanel[0].GeneralInformation[0].adobesignblock1509020015084[0]"/>
+                </signer0>
+                <signer1
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="guide[0].guide1[0].guideRootPanel[0].panel15090123393611509012339473[0].email1509013860222[0]"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Co-Borrower Sign">
+                    <signField0
+                        jcr:primaryType="nt:unstructured"
+                        name="sampleField"
+                        som="guide[0].guide1[0].guideRootPanel[0].panel15090123393611509012339473[0].adobesignblock1509014480227[0]"/>
+                </signer1>
+            </signerInfo>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-11-28T16:37:05.891+05:30"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"/>
+            </view>
+        </guideContainer>
+        <guidefooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guidefooter">
+            <guidetextdraw1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/guidetextdraw"
+                _value="&lt;p>© 2017 Company name | All rights reserved&lt;/p>"
+                css="footerText"
+                guideNodeClass="guideTextDraw"
+                name="footerText"/>
+        </guidefooter>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

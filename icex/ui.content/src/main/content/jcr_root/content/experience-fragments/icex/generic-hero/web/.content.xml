@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-04-13T15:50:08.624+02:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/gss-commons/settings/wcm/templates/experience-fragment-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Web"
+        sling:resourceType="cq/experience-fragments/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2017-01-13T18:15:17.898+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <content_container
+                jcr:created="{Date}2017-03-27T18:25:19.401+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-13T15:50:08.622+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gss-commons/components/content/content-container"
+                background="bg-dark"
+                backgroundPosition="50% 50%"
+                backgroundSize="cover"
+                fileReference="/content/dam/bootstrap-creative/images/header.jpg"
+                overlaySize="overlay-content"
+                padding="padding-xxl"
+                size="default"
+                valign="valign-middle">
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <title_1772428319
+                        jcr:created="{Date}2017-04-10T19:25:50.071+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-04-10T19:26:43.856+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="BOOTSTRAP CREATIVE"
+                        sling:resourceType="foundation/components/title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                    </title_1772428319>
+                    <text
+                        jcr:created="{Date}2017-04-10T19:27:12.943+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-04-10T19:27:21.578+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>This source leverages an edge-to-edge, responsive layout and is perfect for creative, modern looking websites. Use the Branding Wizard to modify main colors and logo, then drag and drop some components to fill it out with content.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                    <button
+                        jcr:created="{Date}2017-03-27T22:09:15.359+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-04-13T15:11:34.792+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gss-commons/components/content/button"
+                        alignButton="align-center"
+                        label="How cool is that?"
+                        size="xl"
+                        type="primary">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                    </button>
+                </par>
+            </content_container>
+        </root>
+    </jcr:content>
+</jcr:root>

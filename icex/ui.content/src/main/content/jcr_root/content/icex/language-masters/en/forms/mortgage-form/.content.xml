@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-10-26T19:39:51.618+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/icex/settings/wcm/templates/content-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mortgage Form"
+        jcr:uuid="5d812ee4-8b82-46de-8e8a-7e9e80ae44e7"
+        sling:resourceType="icex/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <aemform
+                    jcr:created="{Date}2017-10-13T17:22:49.988+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-26T19:39:51.616+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/components/aemform"
+                    cssClientlib="icex.site"
+                    formRef="/content/dam/formsanddocuments/icex/mortgage-form"
+                    formType="adaptiveForm"
+                    submitType="inline"
+                    textIsRich="true"
+                    thankyouConfig="page"
+                    thankyouPage="/content/bootstrap-creative/language-masters/en/forms/mortgage-form"
+                    useiframe="false"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-08-02T15:21:42.092+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/icex/settings/wcm/templates/article-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="icex/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2016-01-13T15:58:00.613+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-29T13:20:53.872+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gss-commons/components/content/main-navigation/v2/main-navigation"
+                alignment="left"
+                layout="horizontal"
+                logoHeight="50"
+                logoWidth="100"
+                showLoginForm="true"
+                source="xf"
+                sticky="true"
+                websiteRootLevel="1"
+                xfPaths="[/content/experience-fragments/icex/main-navigation/industries,/content/experience-fragments/icex/main-navigation/services,/content/experience-fragments/icex/main-navigation/portfolio]"/>
+            <responsivegrid_1639127895
+                jcr:created="{Date}2017-08-02T15:21:42.088+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-08-02T15:21:42.088+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_1639127895>
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="6"/>
+                </cq:responsive>
+            </responsivegrid>
+            <responsivegrid_1442927976
+                jcr:created="{Date}2017-08-02T15:04:35.381+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-08-02T15:04:35.381+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="3"/>
+                </cq:responsive>
+            </responsivegrid_1442927976>
+            <footer
+                jcr:created="{Date}2016-01-13T15:58:16.080+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-13T15:58:16.080+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="icex/components/structure/footer"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smartphone"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

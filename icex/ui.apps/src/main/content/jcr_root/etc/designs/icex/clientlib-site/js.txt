@@ -1,2 +1,8 @@
+#base=js
 
-script.js
+jquery.js
+bootstrap.js
+jquery.easing.js
+jquery.fittext.js
+wow.js
+#creative.js

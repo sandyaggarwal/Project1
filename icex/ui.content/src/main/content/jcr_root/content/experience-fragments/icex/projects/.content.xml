@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Home Page Projects">
+    <project-1/>
+    <project-2/>
+    <project-3/>
+    <project-4/>
+    <project-5/>
+    <project-6/>
+</jcr:root>

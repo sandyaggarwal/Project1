@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-04-27T13:41:12.873+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2017-04-27T13:41:12.870+02:00"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2017-04-27T13:30:18.303+02:00"
+        cq:template="/conf/icex/settings/wcm/templates/content-page"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderName="microsoft"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stratégie"
+        jcr:uuid="c666b116-173c-45f0-a94c-027feb5dafbe"
+        sling:resourceType="icex/components/structure/page">
+        <root
+            cq:lastRolledout="{Date}2017-04-27T13:41:12.871+02:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:lastRolledout="{Date}2017-04-27T13:41:12.874+02:00"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-27T13:41:12.872+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <project-a/>
+    <project-b/>
+</jcr:root>

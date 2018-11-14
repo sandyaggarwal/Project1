@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-30T14:13:27.041+02:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/gss-commons/settings/wcm/templates/experience-fragment-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Web"
+        sling:resourceType="gss-commons/components/experience-fragments/xf-page">
+        <root
+            jcr:lastModified="{Date}2017-01-13T18:15:17.898+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <content_container
+                jcr:created="{Date}2017-05-22T22:13:39.414+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-29T13:20:19.192+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gss-commons/components/content/content-container"
+                backgroundPosition="0% 0%"
+                backgroundSize="initial"
+                paddingBottom="padding-bottom-xl"
+                paddingTop="padding-top-xl">
+                <par jcr:primaryType="nt:unstructured">
+                    <article
+                        jcr:created="{Date}2017-05-22T21:33:59.727+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-05-30T13:25:52.974+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gss-commons/components/content/article"
+                        article="static"
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        fileReference="/content/dam/bootstrap-creative/images/1.jpg"
+                        layout="vertical-stacked"
+                        link="/content/bootstrap-creative/language-masters/en/portfolio/project-a"
+                        title="Project A">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="2"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                    </article>
+                    <article_copy
+                        jcr:created="{Date}2017-05-22T21:33:59.727+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-05-30T13:26:04.082+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gss-commons/components/content/article"
+                        article="static"
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        fileReference="/content/dam/bootstrap-creative/images/2.jpg"
+                        layout="vertical-stacked"
+                        link="/content/bootstrap-creative/language-masters/en/portfolio/project-b"
+                        title="Project B">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="2"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                    </article_copy>
+                    <article_copy_1693662
+                        jcr:created="{Date}2017-05-22T21:33:59.727+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-05-30T14:13:27.039+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gss-commons/components/content/article"
+                        article="static"
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        fileReference="/content/dam/bootstrap-creative/images/3.jpg"
+                        layout="vertical-stacked"
+                        link="/content/bootstrap-creative/language-masters/en/portfolio/project-c"
+                        title="Project C">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="2"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"
+                                offset="2"
+                                width="4"/>
+                        </cq:responsive>
+                    </article_copy_1693662>
+                    <article_copy_6490138
+                        jcr:created="{Date}2017-05-22T21:33:59.727+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-05-30T14:13:17.908+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gss-commons/components/content/article"
+                        article="static"
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        fileReference="/content/dam/bootstrap-creative/images/4.jpg"
+                        layout="vertical-stacked"
+                        link="/content/bootstrap-creative/language-masters/en/portfolio/project-d"
+                        title="Project D">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="2"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"
+                                width="4"/>
+                        </cq:responsive>
+                    </article_copy_6490138>
+                </par>
+            </content_container>
+        </root>
+    </jcr:content>
+</jcr:root>

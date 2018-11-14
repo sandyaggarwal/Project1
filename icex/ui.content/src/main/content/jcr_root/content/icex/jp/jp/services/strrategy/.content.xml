@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-10-07T10:54:15.696+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-10-07T10:54:15.696+02:00"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2016-10-07T10:29:59.760+02:00"
+        cq:template="/conf/icex/settings/wcm/templates/content-page"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderName="microsoft"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="戦略"
+        sling:resourceType="icex/components/structure/page">
+        <root
+            cq:lastRolledout="{Date}2016-10-07T10:54:15.692+02:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:lastRolledout="{Date}2016-10-07T10:54:15.696+02:00"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-07T10:54:15.695+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <project-a/>
+    <project-b/>
+</jcr:root>

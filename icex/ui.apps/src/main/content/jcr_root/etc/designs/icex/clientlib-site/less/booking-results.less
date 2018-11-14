@@ -1,0 +1,32 @@
+@import "../../global.less";
+
+.car-results,
+.flight-results,
+.hotel-results {
+    font-family: @heading-font;
+}
+
+.flight-results .flight .price {
+    color: @theme-primary;
+}
+
+.car-results .car .basic-info .price .per-day {
+    color: @theme-primary;
+}
+
+.hotel-results .hotel .basic-info .price .per-night {
+    color: @theme-primary;
+}
+
+.car-results .car div.overlay-select,
+.flight-results .flight div.overlay-select,
+.hotel-results .hotel div.overlay-select {
+    background-color: @theme-primary;
+    border-color: @theme-primary;
+}
+
+.car-results .car.result-selected,
+.flight-results .flight.result-selected,
+.hotel-results .hotel.result-selected {
+    border: 1px solid @theme-primary;
+}

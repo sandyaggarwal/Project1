@@ -1,0 +1,25 @@
+@import "../../global.less";
+
+div.article {
+    padding: 0;
+}
+
+.article .vertical-overlay div.text-overlay {
+    top: 0;
+    opacity: 0;
+    background-color: @theme-primary;
+    transition: all .35s;
+    padding: 0;
+}
+
+.article:hover .vertical-overlay div.text-overlay {
+    opacity: 0.9;
+}
+
+.article .vertical-overlay div.text-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+<nav data-sly-use.header="header.js"
+     id="mainNav"
+     class="navbar navbar-default affix">
+
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+            </button>
+            
+            <a class="navbar-brand page-scroll" href="${header.languageRoot}.html">${header.websiteTitle}</a>
+			<a href="${header.languageRoot}.html">
+				<div class="logo-img" style="width: 100px; height: 50px; margin: 4px 0 0 4px; display: inline-block;background-size: contain;background-repeat: no-repeat;"></div>
+			</a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul data-sly-list="${header.pages}" class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll ${item.selected ? 'selected' : ''}"
+                       href="${item.page.path}.html">${item.page.title}</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

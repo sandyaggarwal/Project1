@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:ClientLibraryFolder"
-    categories="[icex.site]"/>
+    jcr:title="ICEX"
+    categories="[icex.site]"
+    embed="[icex.structure,gss-commons.components.content-container,gss-commons.components.main-navigation,gss-commons.components.button,gss-commons.components.article,gss-commons.components.icon-text-box,gss-commons.components.carousel]"/>
