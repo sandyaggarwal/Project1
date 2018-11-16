@@ -1,0 +1,21 @@
+<div data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></div>
+<clientlib data-sly-call="${clientLib.all @ categories='icex.hbs.grid'}" data-sly-unwrap />
+<div data-sly-test="${!properties.searchpath}"
+     class="gss-commons-placeholder">
+    <strong>Article Search Panel</strong><br>
+    Please configure search by selecting search path.
+</div>
+<div data-sly-test="${properties.searchpath}">
+    <script type="text/javascript">
+        loader("${properties.searchpath @ context='scriptString'}", 
+               "${properties.rowlayout @ context='scriptString'}", 
+               "${currentNode.path @ context='scriptString'}", 
+               "${currentNode.name @ context='scriptString'}");
+    </script>
+</div>
+
+
+<div id="mainDiv-${currentNode.name}">
+
+</div>
+

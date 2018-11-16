@@ -1,0 +1,944 @@
+.hide {
+    display: none!important
+}
+
+.productTable-d {
+    margin-top: 6.4375rem
+}
+
+.productTable-d .productTable-item--title {
+    font-family: oiTextMedium,sans-serif;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: .125rem solid #8F25E5;
+    padding-bottom: 1.25rem
+}
+
+.productTable-d .productTable-item--title.crackle {
+    padding-bottom: .3rem
+}
+
+.productTable-d .productTable-item--title.crackle div {
+    position: relative
+}
+
+.productTable-d .productTable-item--title.crackle div span {
+    position: absolute;
+    background-color: #8F25E5;
+    border-radius: .125rem;
+    box-shadow: 0rem .0625rem .0625rem 0rem rgba(34,34,34,0);
+    color: #fff;
+    margin-top: -.8125rem;
+    padding: .5rem .6875rem;
+    z-index: 10;
+    white-space: nowrap;
+    top: 2.1875rem;
+    left: 0rem
+}
+
+.productTable-d .productTable-item {
+    border-bottom: .0625rem solid #ccc;
+    display: block
+}
+
+.productTable-d .productTable-item.items-1x {
+    height: 9.0625rem;
+    cursor: pointer
+}
+
+.productTable-d .productTable-item.items-1x.turbine span.turbine-icon:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/combo.svg);
+    display: block;
+    top: 1.9rem;
+    position: relative;
+    width: 11.25rem
+}
+
+.productTable-d .productTable-item.items-1x.turbine .moreProduct-container .moreProduct .min .value {
+    color: #8F25E5
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .plan p,.productTable-d .productTable-item.items-1x.turbine.hover:hover .moreProduct-container .moreProduct .min .value {
+    color: #fff
+}
+
+.productTable-d .productTable-item.items-1x.turbine .moreProduct-container .moreProduct .buttonTable .button {
+    padding: 1.0625rem 1.125rem;
+    border-color: #8F25E5
+}
+
+.productTable-d .productTable-item.items-1x.turbine.hover:hover span.turbine-icon:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/combo-white.svg)
+}
+
+.productTable-d .productTable-item.items-1x.turbine.hover:hover .moreProduct-container .moreProduct .buttonTable .button {
+    background-color: #fff
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover {
+    background-color: #8F25E5;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: .3s;
+    transition-property: color,background-color;
+    color: #fff
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .newStamp {
+    color: #222
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min,.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min .value p,.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min .value p.crackle span.mais {
+    color: #fff
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min .value p.check:after {
+    content: url(http://oi.com.br/assets/icons/check-purplehover.svg)
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min .value p.crackle span.imgcrackle:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/crackle-white.svg)
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .min .value p.crackle span.imghbogo:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/hbo-go-white.svg)
+}
+
+.productTable-d .productTable-item.items-1x.hover:hover .moreProduct-container .moreProduct .buttonTable .button {
+    background-color: #F0C000;
+    border-color: transparent
+}
+
+.productTable-d .productTable-item.items-2x {
+    height: 17.4375rem
+}
+
+.productTable-d .productTable-item.items-2x .title {
+    padding-top: 8.125rem
+}
+
+.productTable-d .productTable-item.items-2x .price {
+    padding-top: 6.875rem
+}
+
+.productTable-d .productTable-item.items-2x .plan {
+    padding-top: 8.125rem
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct {
+    cursor: pointer
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or .min {
+    padding-left: 1.25rem
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover {
+    cursor: pointer;
+    background-color: #8F25E5;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: .3s;
+    transition-property: background-color
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover:after,.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover:before {
+    display: none
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover .min,.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover .min .value p {
+    color: #fff;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: .3s;
+    transition-property: color
+}
+
+.productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or.hover:hover .buttonTable .button {
+    background-color: #F0C000;
+    border-color: transparent;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: .3s;
+    transition-property: background-color
+}
+
+.productTable-d .productTable-item .newStamp {
+    margin-top: .625rem;
+    margin-left: 4.0625rem
+}
+
+.productTable-d .productTable-item .title {
+    font-family: oiTextMedium,sans-serif;
+    font-size: .9375rem;
+    float: left;
+    padding-top: 3.75rem;
+    padding-left: .625rem
+}
+
+.productTable-d .productTable-item .price {
+    padding-top: 2.5rem;
+    font-family: oiTitle,sans-serif;
+    font-size: 3.125rem;
+    position: relative;
+    text-align: center
+}
+
+.productTable-d .productTable-item .price sup {
+    font-size: 1.5625rem;
+    position: relative;
+    top: -1.125rem
+}
+
+.productTable-d .productTable-item .price sub {
+    font-family: oiTextRegular,sans-serif;
+    font-size: .75rem;
+    text-transform: uppercase;
+    position: relative;
+    left: -2.0625rem
+}
+
+.productTable-d .productTable-item .plan {
+    padding-top: 3.875rem
+}
+
+.productTable-d .productTable-item .plan p {
+    font-family: oiTextRegular,sans-serif;
+    font-size: .6875rem;
+    color: #909090;
+    position: relative;
+    top: .1875rem
+}
+
+.productTable-d .productTable-item .plan p.-font-small-size {
+    font-size: .625rem
+}
+
+.productTable-d .productTable-item .moreProduct-container {
+    position: relative
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct {
+    padding: 2.6875rem 0
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min {
+    font-family: oiTextLight,sans-serif;
+    font-size: 1.25rem;
+    padding-top: .625rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min p {
+    font-family: oiTextRegular,sans-serif;
+    font-size: .75rem;
+    color: #909090
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value {
+    font-family: oiTextMedium,sans-serif;
+    font-size: 1.625rem;
+    display: inline-table;
+    padding-right: 1.25rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p {
+    font-family: oiTextRegular,sans-serif;
+    font-size: .75rem;
+    color: #909090;
+    line-height: 1.3;
+    margin-top: .4375rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.check {
+    position: relative;
+    padding-left: 1.25rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.check:after {
+    content: url(http://oi.com.br/assets/icons/check-purple.svg);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.minus {
+    font-size: 1.5625rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span {
+    height: 1.2rem;
+    top: .33rem;
+    position: relative;
+    display: block;
+    float: left
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imgcrackle:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/crackle.svg);
+    position: relative;
+    display: block;
+    width: 5.9375rem;
+    float: left
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imghbogo:after {
+    content: url(http://oi.com.br/assets/images/logos/channels/other/hbo-go.svg);
+    display: block;
+    width: 4.0625rem;
+    float: left
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.mais {
+    color: #8F25E5;
+    font-family: oiTextMedium,sans-serif;
+    font-size: .9375rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .min .value .more {
+    float: right;
+    position: relative;
+    left: .9375rem
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct.or {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: .0625rem solid #ccc
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct.or:last-child {
+    border-bottom: none
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct.or:after {
+    content: "";
+    display: block;
+    width: 1.125rem;
+    height: 55%;
+    border-left: .0625rem solid #dbdbdb;
+    border-top: .0625rem solid #dbdbdb;
+    border-bottom: .0625rem solid #dbdbdb;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    z-index: 1;
+    left: -4%
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct.or:before {
+    content: "ou";
+    display: block;
+    border: .0625rem solid #8F25E5;
+    border-radius: 6.25rem;
+    background: #fff;
+    font-family: oiTextMedium,sans-serif;
+    font-size: .8125rem;
+    width: 2.0625rem;
+    height: 2.0625rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: none;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: -5%;
+    z-index: 2
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .buttonTable {
+    text-align: center
+}
+
+.productTable-d .productTable-item .moreProduct-container .moreProduct .buttonTable .button {
+    border: .0625rem solid #009DF7;
+    font-family: oiTextRegular,sans-serif;
+    font-size: 1rem;
+    min-height: .25rem
+}
+
+.productTable-d.modal table tr.productTable-item--title:last-child {
+    text-align: center
+}
+
+.productTable-d.modal table tr.productTable-item {
+    display: table-row;
+    cursor: pointer
+}
+
+.productTable-d.modal table tr.productTable-item.items1x {
+    height: 9.0625rem
+}
+
+.productTable-d.modal table tr.productTable-item .price {
+    padding-top: 0rem;
+    text-align: left;
+    font-size: 1.875rem
+}
+
+.productTable-d.modal table tr.productTable-item .price .priceTitle {
+    font-family: oiTextLight,sans-serif;
+    font-size: .875rem;
+    color: #222;
+    display: block;
+    position: absolute;
+    top: -1.5625rem
+}
+
+.productTable-d.modal table tr.productTable-item .price .priceTitle.bold,.table-card--price_title {
+    font-family: oiTextMedium,sans-serif
+}
+
+.productTable-d.modal table tr.productTable-item .price sup {
+    font-size: .8125rem;
+    top: -.6875rem
+}
+
+.productTable-d.modal table tr.productTable-item .price sub {
+    font-size: .625rem;
+    left: -1rem
+}
+
+.productTable-d.modal table tr th {
+    text-align: left;
+    padding-bottom: .9375rem
+}
+
+.productTable-d.modal table tr th.dependentes {
+    text-align: center
+}
+
+.productTable-d.modal table tr td {
+    width: 15%;
+    text-align: left
+}
+
+.productTable-d.modal table tr td .plan.dependentes,.table-card--choice,.table-card--plan_item,.table-card--price {
+    text-align: center
+}
+
+.productTable-d.modal table tr td.items-1x .moreProduct-container .moreProduct {
+    padding: 1.875rem 0
+}
+
+.productTable-d.modal table tr td.items-2x {
+    width: 55%
+}
+
+.productTable-d.modal table tr td.items-2x .moreProduct-container .moreProduct {
+    padding: 1.25rem 0;
+    cursor: pointer
+}
+
+.productTable-d.modal table tr td .plan,.productTable-d.modal table tr td.items-2x .moreProduct-container .moreProduct .min {
+    padding-top: 0rem
+}
+
+.productTable-d.modal table tr td.items-2x .moreProduct-container .moreProduct.or {
+    display: block
+}
+
+.productTable-d.modal table tr td.items-2x .moreProduct-container .moreProduct .min .value:first-child {
+    margin-right: 1.25rem
+}
+
+.productTable-d.modal table tr td .plan.description {
+    color: #909090
+}
+
+.table-card--wrapper {
+    border: .0625rem solid rgba(219,219,219,.8);
+    border-radius: .1875rem;
+    margin-bottom: 1.5625rem
+}
+
+.table-card--wrapper:last-child {
+    margin-bottom: none
+}
+
+.table-card--price_title {
+    font-size: .875rem;
+    margin: 1.25rem 0 .625rem
+}
+
+.table-card--price_num {
+    font-family: oiTitle,sans-serif;
+    margin-bottom: .625rem
+}
+
+.table-card--price_num .price__integer {
+    font-size: 3.9375rem
+}
+
+.table-card--price_num .price__cents {
+    font-size: 1.25rem
+}
+
+.table-card--price_num .price__suffix {
+    font-size: .8125rem
+}
+
+.table-card--price_description {
+    margin-bottom: .3125rem
+}
+
+.table-card--price_description h5 {
+    font-family: oiTextLight,sans-serif;
+    font-size: 1.0625rem
+}
+
+.table-card--more {
+    width: 90%;
+    height: .125rem;
+    background: rgba(219,219,219,.5);
+    margin: 1.875rem auto 0;
+    position: relative
+}
+
+.table-card--choice {
+    width: 90%;
+    border: .125rem solid rgba(219,219,219,.5);
+    border-left: none;
+    border-right: none;
+    padding: .625rem 0;
+    margin: .625rem auto 0;
+    color: #8F25E5;
+    font-size: .875rem;
+    font-family: oiTextRegular,sans-serif;
+    position: relative
+}
+
+.table-card--choice:before {
+    content: "ou";
+    display: block;
+    width: 1.4375rem;
+    height: 1.4375rem;
+    font-size: .75rem;
+    border: .0625rem solid #8F25E5;
+    border-radius: 50%;
+    position: absolute;
+    top: 9.375rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    z-index: 3;
+    text-align: center;
+    line-height: 1.125rem
+}
+
+.table-card--plan_item {
+    width: 50%;
+    display: inline-table;
+    border-right: .125rem solid rgba(219,219,219,.5);
+    padding: 0 5% .625rem
+}
+
+.table-card--plan_item.item-1x {
+    width: 100%
+}
+
+.table-card--plan_item.item-1x.single-child .table-plan--title {
+    height: 6.25rem;
+    padding-top: 2.5rem
+}
+
+.table-card--plan_item.single-child .table-plan--title {
+    height: 16.1875rem;
+    padding-top: 4.6875rem
+}
+
+.table-card--plan_item:last-child {
+    border-right: none
+}
+
+.table-card--plan_item .table-plan--title {
+    min-height: 4.6875rem;
+    font-family: oiTextLight,sans-serif;
+    font-size: 1.3125rem;
+    color: #222;
+    margin-top: 1.5625rem
+}
+
+.table-plan--button,.table-plan--description {
+    font-family: oiTextRegular,sans-serif
+}
+
+.table-card--plan_item .table-plan--title:nth-last-child(2) {
+    margin-top: 0rem
+}
+
+.table-card--plan_item .table-plan--title span {
+    display: block
+}
+
+.table-card--plan_item .table-plan--title span.description {
+    font-family: oiTextRegular,sans-serif;
+    font-size: .875rem;
+    color: #909090;
+    margin-top: .3125rem
+}
+
+.more {
+    color: #8F25E5;
+    font-size: 1.875rem;
+    padding: .75rem 0
+}
+
+.table-plan--description {
+    font-size: .875rem;
+    color: #909090
+}
+
+.table-plan--button {
+    margin-top: .9375rem;
+    margin-bottom: .625rem;
+    padding: .9375rem 0;
+    border: .0625rem solid #009DF7;
+    border-radius: .1875rem;
+    font-size: .75rem
+}
+
+@media screen and (min-width: 734px) {
+    .small-only {
+        display:none!important
+    }
+
+    .table.banda-larga {
+        padding-top: 5rem!important
+    }
+}
+
+@media only screen and (min-width: 734px) and (max-width:1023px) {
+    .small-only-and-large-up {
+        display:none!important
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .home-hide-tablet-vert-down {
+        display:none!important
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .large-down,.medium-down,.medium-only {
+        display:none!important
+    }
+
+    .productTable-d .productTable-item--title.crackle div span {
+        margin-top: -1.2rem
+    }
+
+    .productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imgcrackle:after {
+        width: 3.5rem
+    }
+
+    .productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imghbogo:after {
+        width: 3.375rem
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .between-medium-large,.extra-large-down,.large-only {
+        display:none!important
+    }
+
+    .productTable-d .productTable-item .newStamp {
+        margin-left: 5rem
+    }
+
+    .productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imgcrackle:after {
+        width: 4.6875rem
+    }
+
+    .productTable-d .productTable-item .moreProduct-container .moreProduct .min .value p.crackle span.imghbogo:after {
+        width: 4rem
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .between-large-extra-large,.extra-large-only {
+        display:none!important
+    }
+
+    .productTable-d .productTable-item--title.crackle div span {
+        margin-top: -.78rem
+    }
+}
+
+@media screen and (min-width: 2340px) {
+    .productTable-d .productTable-item--title.crackle div span {
+        margin-top:-.3rem
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .full-hd-up {
+        display:none!important
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    .extra-large-only,.extra-large-up {
+        display:none!important
+    }
+
+    .productTable-d .productTable-item.items-2x .plan {
+        padding-top: 7.0625rem
+    }
+
+    .productTable-d .productTable-item .price {
+        font-size: 2.5rem
+    }
+
+    .productTable-d .productTable-item .price sup {
+        font-size: 1.25rem;
+        top: -.9375rem;
+        left: .3125rem
+    }
+
+    .productTable-d .productTable-item .price sub {
+        font-size: .8125rem;
+        left: -1.4375rem
+    }
+
+    .productTable-d .productTable-item .moreProduct-container .moreProduct {
+        padding: 2.75rem 0
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .between-large-extra-large,.large-only,.large-up {
+        display:none!important
+    }
+
+    .table .table-virada--wrapper .container {
+        position: relative;
+        padding-top: 6.875rem
+    }
+
+    .table .table-virada--wrapper .container .bigDiv {
+        margin-left: 4.5625rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap
+    }
+
+    .table .table-virada--wrapper .container .productTable-d {
+        width: 43.125rem;
+        margin-top: 6.25rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.fixed {
+        position: absolute;
+        margin-top: 6.25rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item.items-2x .moreProduct-container {
+        padding-left: 3.375rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item.items-2x .moreProduct-container:before {
+        left: 0
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item.items-2x .moreProduct-container:after {
+        left: 1.5%
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item.items-2x .moreProduct-container .moreProduct.or {
+        width: initial;
+        display: block
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item.items-1x .moreProduct-container .moreProduct.or {
+        width: initial
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item .plan {
+        margin-left: 1.25rem;
+        float: left;
+        width: 3.125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item .plan.dependentes {
+        float: right
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item .moreProduct-container {
+        float: left;
+        width: 31.25rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d.modal .productTable-item .moreProduct-container .moreProduct.or {
+        width: initial
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item--title {
+        width: 40rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container {
+        width: 43.125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct .min {
+        padding-top: .5rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct .min .value {
+        font-size: 1.125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct.or .min {
+        float: left
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct.or:after,.table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct.or:before {
+        display: none
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .moreProduct-container .moreProduct.or .buttonTable {
+        text-align: right
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .plan {
+        width: 4.375rem;
+        text-align: center;
+        float: left
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-1x .price {
+        padding-top: 3.75rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-1x .price .priceTitle {
+        top: 1.875rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-1x .price sup {
+        top: -.6875rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-1x .price sub {
+        top: 0rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-1x .moreProduct-container .moreProduct.or {
+        width: 36.5rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .price {
+        padding-top: 7.8125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .price .priceTitle {
+        top: 5.9375rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .price sup {
+        top: -.6875rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .price sub {
+        top: 0rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .plan {
+        padding-top: 8.125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .moreProduct-container {
+        padding-left: 7.5rem;
+        height: 17.5rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .moreProduct-container .moreProduct.or {
+        width: 34.375rem;
+        display: block
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .moreProduct-container:after {
+        content: "";
+        display: block;
+        width: 1.125rem;
+        height: 55%;
+        border-left: .0625rem solid #dbdbdb;
+        border-top: .0625rem solid #dbdbdb;
+        border-bottom: .0625rem solid #dbdbdb;
+        position: absolute;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        top: 50%;
+        z-index: 1;
+        left: 16.5%
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item.items-2x .moreProduct-container:before {
+        content: "ou";
+        display: block;
+        border: .0625rem solid #8F25E5;
+        border-radius: 6.25rem;
+        background: #fff;
+        font-family: oiTextMedium,sans-serif;
+        font-size: .8125rem;
+        width: 2.0625rem;
+        height: 2.0625rem;
+        line-height: 2rem;
+        text-align: center;
+        text-transform: none;
+        position: absolute;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 15%;
+        z-index: 2
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .price {
+        font-size: 1.875rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .price .priceTitle {
+        font-family: oiTextLight,sans-serif;
+        font-size: .875rem;
+        color: #222;
+        display: block;
+        text-align: left;
+        position: absolute
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .price .priceTitle.bold {
+        font-family: oiTextMedium,sans-serif
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .price sup {
+        font-size: .8125rem
+    }
+
+    .table .table-virada--wrapper .container .productTable-d .productTable-item .price sub {
+        font-size: .625rem;
+        left: -1rem
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-hide-tablet-vert-up {
+        display:none!important
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .between-medium-large,.medium-only,.medium-up {
+        display:none!important
+    }
+}
