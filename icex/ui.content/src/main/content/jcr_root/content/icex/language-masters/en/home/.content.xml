@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
-    <profile/>
-    <asset-share/>
-    <articles/>
     <jcr:content
-        cq:cloudserviceconfigs="[/etc/cloudservices/msft-translation/msft_trial,/etc/cloudservices/translation/bootstrap-creative]"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2017-05-26T14:33:33.097+02:00"
+        cq:lastModified="{Date}2018-11-17T01:25:11.064+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/icex/settings/wcm/templates/content-page"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="English"
-        jcr:uuid="48f2e565-08a8-47bf-b51d-0a0a5b8077c9"
+        jcr:title="Home"
+        jcr:uuid="11d2248a-5799-4491-9c1d-5a91fc142490"
         sling:resourceType="icex/components/structure/page"
         bw-theme="icex.site">
         <root
@@ -31,14 +27,14 @@
                 <content_container_1
                     jcr:created="{Date}2017-04-13T15:10:13.833+02:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-04-25T14:49:32.071+02:00"
+                    jcr:lastModified="{Date}2018-11-17T01:05:09.133+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="gss-commons/components/content/content-container"
                     background="bg-dark"
                     backgroundPosition="50% 100%"
                     backgroundSize="cover"
-                    fileReference="/content/dam/bootstrap-creative/images/header.jpg"
+                    fileReference="/content/dam/icex/img2017769062.jpg"
                     overlaySize="overlay-content"
                     padding="padding-xxl"
                     paddingBottom="padding-bottom-xxl"
@@ -48,64 +44,14 @@
                     <par
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <title
-                            jcr:created="{Date}2017-04-10T19:25:50.071+02:00"
+                        <text_copy
+                            jcr:created="{Date}2017-04-10T19:30:41.094+02:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-05-26T13:49:32.107+02:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="BOOTSTRAP CREATIVE"
-                            sling:resourceType="gss-commons/components/content/title"
-                            align="center">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
-                            </cq:responsive>
-                        </title>
-                        <spacer
-                            jcr:created="{Date}2017-04-25T14:53:27.967+02:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-05-26T14:33:33.091+02:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="gss-commons/components/content/spacer"
-                            align="center"
-                            lineThickness="line-medium"
-                            lineWidth="25%"
-                            size="size-s">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="5"
-                                    width="2"/>
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="4"
-                                    width="4"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                            </cq:responsive>
-                        </spacer>
-                        <text
-                            jcr:created="{Date}2017-04-10T19:27:12.943+02:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-04-24T15:51:50.825+02:00"
+                            jcr:lastModified="{Date}2018-11-17T01:07:17.762+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="foundation/components/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>This source leverages an edge-to-edge, responsive layout and is perfect for creative, modern looking websites. Use the Branding Wizard to modify main colors and logo, then drag and drop some components to fill it out with content.&lt;br>&#xa;&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: left;&quot;>Te ayudamos a &lt;br>&#xd;&#xa;internacionalizarte a través de &lt;br>&#xd;&#xa;los mercados electrónicos&lt;/p>&#xd;&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -121,27 +67,89 @@
                                     offset="1"
                                     width="10"/>
                             </cq:responsive>
-                        </text>
+                        </text_copy>
                         <button
-                            jcr:created="{Date}2017-03-27T22:09:15.359+02:00"
+                            jcr:created="{Date}2018-11-17T01:14:09.129+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-03-27T22:09:59.721+02:00"
+                            jcr:lastModified="{Date}2018-11-17T01:24:58.576+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="gss-commons/components/content/button"
-                            alignButton="align-center"
-                            label="How cool is that?"
+                            sling:resourceType="gss-commons/components/content/button/v1/button"
+                            alignButton="align-left"
+                            backgroundColor="#FFFFFF"
+                            backgroundColorClass="bw-custom"
+                            backgroundColorOption="custom"
+                            label="Qué es eMarket Services"
+                            mainColor="#FFFFFF"
+                            mainColorOption="none"
+                            paddingBottom="0px"
+                            paddingLeft="0px"
+                            paddingRight="0px"
+                            paddingTop="0px"
                             size="xl"
                             type="primary">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
+                                    offset="1"
+                                    width="11"/>
                             </cq:responsive>
                         </button>
                     </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="7"/>
+                    </cq:responsive>
                 </content_container_1>
+                <content_container
+                    jcr:created="{Date}2018-11-17T01:04:38.918+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-17T01:04:38.918+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gss-commons/components/content/content-container/v2/content-container"
+                    background="color"
+                    paddingBottom="2rem"
+                    paddingLeft="2rem"
+                    paddingRight="2rem"
+                    paddingTop="2rem">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <textimage
+                            jcr:created="{Date}2018-11-17T01:21:59.628+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-17T01:22:59.883+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/textimage">
+                            <image
+                                jcr:description="¿Estás preparado para utilizar mercados electrónicos?"
+                                jcr:lastModified="{Date}2018-11-17T01:22:59.883+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/icex/check.png"/>
+                        </textimage>
+                        <button
+                            jcr:created="{Date}2018-11-17T01:23:13.138+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-17T01:23:13.138+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gss-commons/components/content/button/v1/button"
+                            alignButton="center"
+                            size="xl"
+                            type="primary"/>
+                    </par>
+                </content_container>
                 <content_container_2
                     jcr:created="{Date}2016-06-23T22:24:45.738+02:00"
                     jcr:createdBy="admin"
@@ -235,6 +243,30 @@
                                     width="10"/>
                             </cq:responsive>
                         </text>
+                        <text_copy
+                            jcr:created="{Date}2017-04-10T19:30:41.094+02:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-04-10T19:30:49.894+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>In the edit dialog, define some basic properties of your container like title and styling.&amp;nbsp;Keep in mind that colors can be easily customized through the Branding Wizard. Then, put any components you want inside the container and switch to Layout mode to adjust sizes.&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </text_copy>
                         <button
                             jcr:created="{Date}2016-06-23T23:28:17.275+02:00"
                             jcr:createdBy="admin"
@@ -533,13 +565,4 @@
             </responsivegrid>
         </root>
     </jcr:content>
-    <about/>
-    <services/>
-    <portfolio/>
-    <contact/>
-    <industries/>
-    <forms/>
-    <Update/>
- 
-    <home/>
 </jcr:root>
