@@ -8,12 +8,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2017-09-25T13:16:08.331+02:00"
+                        jcr:lastModified="{Date}2018-11-16T11:50:25.496+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="ICEX Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:General,group:Address,group:Commerce,group:GSS Commons,group:We.Retail]"
+                        components="[group:General,group:Address,group:Commerce,group:GSS Commons,group:ICEX Structure,group:We.Retail]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -30,13 +30,6 @@
                                     droptarget="product-data-reference"
                                     resourceType="commerce/components/product"
                                     type="Products"/>
-                                <flash
-                                    jcr:primaryType="nt:unstructured"
-                                    assetGroup="media"
-                                    assetMimetype="application/x-shockwave-flash"
-                                    droptarget="flash"
-                                    resourceType="foundation/components/flash"
-                                    type="Images"/>
                                 <document
                                     jcr:primaryType="nt:unstructured"
                                     assetGroup="media"
