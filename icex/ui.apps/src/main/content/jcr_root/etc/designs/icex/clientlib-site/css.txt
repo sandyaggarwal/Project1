@@ -1,4 +1,5 @@
 css/bootstrap.css
+css/icex.css
 css/animate.css
 css/common.css
 
