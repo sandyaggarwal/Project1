@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-11-15T15:29:42.737+05:30"
+        cq:lastModified="{Date}2018-11-16T11:51:54.359+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/icex/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
@@ -19,21 +19,21 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <page_list
-                    jcr:created="{Date}2018-11-15T15:05:13.209+05:30"
+                    jcr:created="{Date}2018-11-16T11:50:43.460+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-11-15T15:29:42.735+05:30"
+                    jcr:lastModified="{Date}2018-11-16T11:51:54.356+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="gss-commons/components/content/page-list"
+                    sling:resourceType="icex/components/structure/page-list"
                     childDepth="1"
                     columnPageList="one-cols"
                     linkItems="false"
                     listFrom="tags"
-                    orderBy="modified"
+                    parentPage="/content/icex/language-masters/en/Update"
                     showDescription="false"
-                    showModificationDate="true"
+                    showModificationDate="false"
                     sortOrder="asc"
-                    tags="[icex:security,icex:e-commerce]"
+                    tags="[icex:e-commerce,icex:security]"
                     tagsMatch="any"
                     tagsSearchRoot="/content/icex/language-masters/en/Update"/>
             </responsivegrid>
