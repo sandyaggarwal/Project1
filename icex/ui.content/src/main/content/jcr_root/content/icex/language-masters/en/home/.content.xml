@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2018-11-17T01:25:11.064+05:30"
+        cq:lastModified="{Date}2018-11-17T01:49:22.990+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/icex/settings/wcm/templates/content-page"
         jcr:isCheckedOut="{Boolean}true"
@@ -56,8 +56,8 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
+                                    offset="1"
+                                    width="8"/>
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
@@ -150,6 +150,64 @@
                             type="primary"/>
                     </par>
                 </content_container>
+                <button_copy jcr:primaryType="nt:unstructured"/>
+                <spacer
+                    jcr:created="{Date}2018-11-17T01:34:01.521+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-17T01:34:01.521+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gss-commons/components/content/spacer/v2/spacer"
+                    height="2px"
+                    paddingBottom="15px"
+                    paddingLeft="0px"
+                    paddingRight="0px"
+                    paddingTop="15px"
+                    width="50%"/>
+                <title
+                    jcr:created="{Date}2018-11-17T01:33:38.745+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-17T01:37:08.799+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="[¿Qué vas a encontrar en eMS?,¿Qué vas a encontrar en eMS?]"
+                    sling:resourceType="gss-commons/components/content/title/v2/title"
+                    backgroundColor="#FFFFFF"
+                    backgroundColorClass="bw-custom"
+                    backgroundColorOption="custom"
+                    mainColor="#FFFFFF"
+                    mainColorOption="none"
+                    mode="static"
+                    paddingBottom="15px"
+                    paddingLeft="0px"
+                    paddingRight="0px"
+                    paddingTop="15px"
+                    type="h2"/>
+                <text
+                    jcr:created="{Date}2018-11-17T01:37:55.007+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-17T01:39:26.143+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gss-commons/components/content/text/v1/text"
+                    backgroundColor="#FFFFFF"
+                    backgroundColorOption="none"
+                    mainColor="#FFFFFF"
+                    mainColorOption="none"
+                    mode="static"
+                    paddingBottom="0px"
+                    paddingLeft="0px"
+                    paddingRight="0px"
+                    paddingTop="0px"
+                    text="&lt;p>Te ofrecemos información sobre mercados electrónicos, estudios de mercado, cómo hacer crecer tu negocio vendiendo en canales online...&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </text>
                 <content_container_2
                     jcr:created="{Date}2016-06-23T22:24:45.738+02:00"
                     jcr:createdBy="admin"
@@ -168,71 +226,21 @@
                     <par
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <title
-                            jcr:created="{Date}2017-04-25T14:56:57.868+02:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-05-26T13:59:17.068+02:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="This is a Content Container component"
-                            sling:resourceType="gss-commons/components/content/title"
-                            align="center"
-                            type="h2">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
-                            </cq:responsive>
-                        </title>
-                        <spacer
-                            jcr:created="{Date}2017-04-25T14:55:41.491+02:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-05-26T14:33:10.617+02:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="gss-commons/components/content/spacer"
-                            align="center"
-                            lineThickness="line-medium"
-                            lineWidth="25%"
-                            size="size-s">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="5"
-                                    width="2"/>
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="4"
-                                    width="4"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                            </cq:responsive>
-                        </spacer>
+                        <button_copy jcr:primaryType="nt:unstructured"/>
                         <text
                             jcr:created="{Date}2017-04-10T19:30:41.094+02:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-04-10T19:30:49.894+02:00"
+                            jcr:lastModified="{Date}2018-11-17T01:45:56.199+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="foundation/components/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>In the edit dialog, define some basic properties of your container like title and styling.&amp;nbsp;Keep in mind that colors can be easily customized through the Branding Wizard. Then, put any components you want inside the container and switch to Layout mode to adjust sizes.&lt;br>&#xa;&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: left;&quot;>Comienza aquí tu internacionalización&lt;br>&#xd;&#xa;Regístrate en eMS&lt;/p>&#xd;&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
+                                    offset="1"
+                                    width="4"/>
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
@@ -243,46 +251,41 @@
                                     width="10"/>
                             </cq:responsive>
                         </text>
-                        <text_copy
-                            jcr:created="{Date}2017-04-10T19:30:41.094+02:00"
+                        <spacer
+                            jcr:created="{Date}2018-11-17T01:45:04.890+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-04-10T19:30:49.894+02:00"
+                            jcr:lastModified="{Date}2018-11-17T01:45:04.890+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="foundation/components/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>In the edit dialog, define some basic properties of your container like title and styling.&amp;nbsp;Keep in mind that colors can be easily customized through the Branding Wizard. Then, put any components you want inside the container and switch to Layout mode to adjust sizes.&lt;br>&#xa;&lt;/p>&#xa;"
-                            textIsRich="true">
+                            sling:resourceType="gss-commons/components/content/spacer/v2/spacer"
+                            height="2px"
+                            paddingBottom="15px"
+                            paddingLeft="0px"
+                            paddingRight="0px"
+                            paddingTop="15px"
+                            width="50%">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
+                                    width="3"/>
                             </cq:responsive>
-                        </text_copy>
+                        </spacer>
                         <button
                             jcr:created="{Date}2016-06-23T23:28:17.275+02:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-03-27T18:21:56.491+02:00"
+                            jcr:lastModified="{Date}2018-11-17T01:49:04.744+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="gss-commons/components/content/button"
                             alignButton="align-center"
-                            label="And a nice looking button"
+                            label="Registrate"
                             size="xl"
                             type="default">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
+                                    offset="0"
+                                    width="4"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
@@ -290,6 +293,12 @@
                             </cq:responsive>
                         </button>
                     </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
                 </content_container_2>
                 <content_container_3
                     jcr:created="{Date}2016-06-23T21:28:53.471+02:00"
