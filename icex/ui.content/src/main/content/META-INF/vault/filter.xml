@@ -2,4 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/content/icex"/>
     <filter root="/content/dam/icex"/>
+    <filter root="/content/experience-fragments/icex"/>
+    <filter root="/content/dam/formsanddocuments/icex"/>
+    <filter root="/content/forms/af/icex"/>
+    
 </workspaceFilter>
