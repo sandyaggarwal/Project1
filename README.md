@@ -1,4 +1,4 @@
-# ECEX
+# ICEX
 The POC will be based in the development of the following features:
 o	Development of 4 pages for EmarketServices www.emarketservices.es portal
 o	Multi-language.
